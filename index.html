@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Document Meta & SEO -->
+  <title>Yogesh Honamore &mdash; Digital Marketing Portfolio</title>
+  <meta name="description" content="Digital marketing and growth portfolio of Yogesh Honamore. Short-form video, campus audience growth, and performance landing pages.">
+  <meta name="author" content="Yogesh Honamore">
+
+  <!-- Open Graph Tags (WhatsApp & LinkedIn Previews) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yogesh Honamore &mdash; Digital Marketing Portfolio">
+  <meta property="og:description" content="Reshaping trajectories. Digital marketing portfolio of Yogesh Honamore — campus growth, short-form video, and performance campaigns.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  <meta property="og:url" content="https://yogeshh-11.github.io/">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Yogesh Honamore &mdash; Digital Marketing Portfolio">
+  <meta name="twitter:description" content="Short-form video, campus audience growth, and performance landing pages. Open to digital marketing roles.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <!-- Google Fonts: Bricolage Grotesque (500 & 800) + Instrument Sans (400 & 600) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- (c) 3px Red Scroll-Progress Line at Very Top -->
+  <div class="scroll-progress-line" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- (b) Interactive Background Canvas Grid -->
+  <canvas id="bgCanvas" aria-hidden="true"></canvas>
+
+  <div class="page-container">
+
+    <!-- 1. TOP BAR (Not sticky) -->
+    <header class="top-bar">
+      <div class="top-bar-identity">
+        <div class="avatar-wrap">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Portrait of Yogesh Honamore"
+            class="avatar-photo"
+            width="88"
+            height="88"
+            loading="lazy"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+          >
+          <span class="avatar-initials" aria-hidden="true">YH</span>
+        </div>
+        <a href="#hero" class="top-bar-name" aria-label="Yogesh Honamore Home">Yogesh Honamore</a>
+      </div>
+      <div class="open-to-work-pill" role="status">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Open to work</span>
+      </div>
+    </header>
+
+    <main>
+      <!-- 2. HERO SECTION -->
+      <section class="hero-section" id="hero">
+        <!-- (a) Headline: word mask reveal + 3px red line under "trajectories." -->
+        <h1 class="hero-headline" aria-label="Reshaping trajectories.">
+          <span class="word-wrap"><span class="word" style="--i: 0;">Reshaping</span></span>
+          <span class="word-wrap highlight-wrap">
+            <span class="word" style="--i: 1;">trajectories.</span>
+            <span class="hero-red-underline" aria-hidden="true"></span>
+          </span>
+        </h1>
+        <p class="hero-intro">Bridging creative media and code. Specializing in UI/UX design, visual identity, motion, and frontend execution&mdash;building seamless digital experiences from concept to final pixel.</p>
+
+      </section>
+
+      <!-- 3. CONTENT SECTIONS (Two-Column Row with 1.5px Dark Line Above) -->
+
+      <!-- SECTION: SELECTED WORK -->
+      <section class="content-row" id="work">
+        <div class="row-divider" aria-hidden="true"></div>
+        <div class="row-grid">
+          <div class="row-label">Selected work</div>
+          <div class="row-content">
+
+            <div class="work-list">
+              <!-- Row 1: Oyster Kode Club -->
+              <article class="work-row">
+                <div class="work-body-col">
+                  <h3 class="work-title">Oyster Kode Club &mdash; Campus Audience Growth</h3>
+                  <div class="work-breakdown">
+                    <p class="work-line"><span class="line-label">Problem:</span> Students ignored static flyers in WhatsApp groups, leaving event attendance unpredictable.</p>
+                    <p class="work-line"><span class="line-label">What I did:</span> Replaced flyers with 30-second reels, set a weekly calendar, and built branded Figma templates.</p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Row 2: LMS & QR Attendance System -->
+              <article class="work-row">
+                <div class="work-body-col">
+                  <h3 class="work-title">LMS &amp; QR Attendance &mdash; Real-Time Check-In Flow</h3>
+                  <div class="work-breakdown">
+                    <p class="work-line"><span class="line-label">Problem:</span> Slow paper roll calls and confusing test portals caused exam delays and student check-in queues.</p>
+                    <p class="work-line"><span class="line-label">What I did:</span> Designed an instant QR-code check-in interface and live exam status dashboard in Figma and React.</p>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Row 3: Blood Donor Finder -->
+              <article class="work-row">
+                <div class="work-body-col">
+                  <h3 class="work-title">Blood Donor Finder &mdash; Onboarding &amp; Retention</h3>
+                  <div class="work-breakdown">
+                    <p class="work-line"><span class="line-label">Problem:</span> Multi-screen forms caused donors to drop off during time-critical emergency requests.</p>
+                    <p class="work-line"><span class="line-label">What I did:</span> Mapped user drop-offs in Figma, cut non-essential inputs, and created a single-tap accept screen.</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: TOOLS -->
+      <section class="content-row" id="tools">
+        <div class="row-divider" aria-hidden="true"></div>
+        <div class="row-grid">
+          <div class="row-label">Tools</div>
+          <div class="row-content">
+            <div class="tools-grid">
+              <span class="tool-pill">SEO</span>
+              <span class="tool-pill">Google Ads</span>
+              <span class="tool-pill">Meta Ads</span>
+              <span class="tool-pill">GA4</span>
+              <span class="tool-pill">Canva</span>
+              <span class="tool-pill">Email marketing</span>
+              <span class="tool-pill">Adobe Premiere Pro</span>
+              <span class="tool-pill">CapCut</span>
+              <span class="tool-pill">Figma</span>
+              <span class="tool-pill">HTML5 &amp; CSS3</span>
+              <span class="tool-pill">JavaScript</span>
+              <span class="tool-pill">React</span>
+              <span class="tool-pill">Google Cloud Certified</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: ACHIEVEMENTS -->
+      <section class="content-row" id="achievements">
+        <div class="row-divider" aria-hidden="true"></div>
+        <div class="row-grid">
+          <div class="row-label">Achievements</div>
+          <div class="row-content">
+
+            <div class="achievement-list">
+
+              <div class="achievement-item">
+                <div class="achievement-meta">2025 &ndash; 26</div>
+                <div class="achievement-body">
+                  <p class="achievement-title">Football Team Captain &mdash; 1st place, Zonals</p>
+                  <p class="achievement-desc">Captained RIT's college football team. Led strategy, match preparation, and coordination — finishing first at the inter-college Zonals tournament.</p>
+                </div>
+              </div>
+
+              <div class="achievement-item">
+                <div class="achievement-meta">2025 &ndash; 26</div>
+                <div class="achievement-body">
+                  <p class="achievement-title">Social Media Head &mdash; Oyster Kode Club</p>
+                  <p class="achievement-desc">Ran the club's content calendar across platforms. Designed graphics, posts, and reels that built a consistent visual identity and grew event attendance.</p>
+                </div>
+              </div>
+
+              <div class="achievement-item">
+                <div class="achievement-meta">Certification</div>
+                <div class="achievement-body">
+                  <p class="achievement-title">Google Cloud Associate Cloud Engineer</p>
+                  <p class="achievement-desc">Certified by Google Cloud. Covers deploying and managing infrastructure, monitoring, and cloud-native application architecture.</p>
+                </div>
+              </div>
+
+              <div class="achievement-item">
+                <div class="achievement-meta">Certification</div>
+                <div class="achievement-body">
+                  <p class="achievement-title">Zscaler Zero Trust Certified Associate (ZTCA)</p>
+                  <p class="achievement-desc">Industry certification in zero-trust network security principles and Zscaler architecture.</p>
+                </div>
+              </div>
+
+              <div class="achievement-item">
+                <div class="achievement-meta">Certification</div>
+                <div class="achievement-body">
+                  <p class="achievement-title">Fundamentals of Cybersecurity &amp; Data Science with AI</p>
+                  <p class="achievement-desc">Completed structured training in cybersecurity fundamentals and applied data science using AI tools.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 4. FOOTER (Two columns desktop, one mobile, 1.5px line above) -->
+    <footer class="site-footer" id="footer">
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <div class="footer-columns">
+        <!-- Left Column -->
+        <div class="footer-col-left">
+          <span class="footer-kicker">What's next?</span>
+          <!-- (j) Red underline draws in under "Let's talk." once when visible -->
+          <h2 class="footer-closing-line">
+            Got a role? <span class="footer-talk-wrap">Let's talk.<span class="footer-red-underline" aria-hidden="true"></span></span>
+          </h2>
+
+          <div class="footer-btn-group">
+            <a href="mailto:yogeshhonamore24@gmail.com" class="pill-btn dark-pill">
+              Email me &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Link rows separated by thin lines -->
+        <div class="footer-col-right">
+          <nav class="footer-links-list" aria-label="Professional profiles and document downloads">
+            <a href="https://www.linkedin.com/in/yogesh-honamore" target="_blank" rel="noopener" class="footer-link-row">
+              <span class="link-label">LinkedIn</span>
+              <span class="link-arrow">&nearr;</span>
+            </a>
+            <a href="assets/resume/resume.pdf" download="Yogesh_Honamore_Resume.pdf" class="footer-link-row">
+              <span class="link-label">Resume (PDF)</span>
+              <span class="link-arrow">&darr;</span>
+            </a>
+            <a href="https://github.com/yogeshh-11" target="_blank" rel="noopener" class="footer-link-row">
+              <span class="link-label">GitHub</span>
+              <span class="link-arrow">&nearr;</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Bottom Strip -->
+      <div class="footer-bottom-strip">
+        <div class="bottom-live-status">
+          <span class="status-green-dot" aria-hidden="true"></span>
+          <span id="liveStatusText">Open to work &bull; Sangli, India &bull; live local time</span>
+        </div>
+
+        <div class="bottom-copyright">
+          &copy; <span id="copyrightYear">2026</span> Yogesh Honamore
+        </div>
+
+        <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top">
+          &uarr; Back to top
+        </button>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

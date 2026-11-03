@@ -1,0 +1,88 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 4 0 R /F2 5 0 R /F3 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+7 0 obj
+<< /Length 5562 >>
+stream
+0.05 0.08 0.15 rg 0 740 595.28 102 re f
+0.15 0.60 0.95 rg 0 736 595.28 4 re f
+BT /F2 22 Tf 1 1 1 rg 36 795 Td (YOGESH HONAMORE) Tj ET
+BT /F1 11 Tf 0.40 0.80 1.0 rg 36 775 Td (Frontend Developer & UI/UX Designer | B.Tech Computer Engineering) Tj ET
+BT /F1 9 Tf 0.85 0.90 0.95 rg 36 752 Td (Sangli, Maharashtra, India  |  +91-8767557295  |  yogeshhonamore24@gmail.com  |  Open to Opportunities) Tj ET
+0.08 0.35 0.75 rg 36 703 523 1.5 re f
+BT /F2 12 Tf 0.08 0.25 0.55 rg 36 705 Td (PROFESSIONAL SUMMARY) Tj ET
+BT /F1 9 Tf 0.2 0.2 0.25 rg 36 687 Td (Frontend developer and UI/UX designer bridging clean code with intuitive user experiences. Skilled in translating) Tj ET
+BT /F1 9 Tf 0.2 0.2 0.25 rg 36 674 Td (wireframes and visual concepts into responsive, accessible interfaces using HTML, CSS, React, and Figma. Owns the) Tj ET
+BT /F1 9 Tf 0.2 0.2 0.25 rg 36 661 Td (full design-to-development lifecycle - from user research and wireframing to final implementation - crafting interfaces) Tj ET
+BT /F1 9 Tf 0.2 0.2 0.25 rg 36 648 Td (that balance visual storytelling with usability and measurable engagement.) Tj ET
+0.08 0.35 0.75 rg 36 623 523 1.5 re f
+BT /F2 12 Tf 0.08 0.25 0.55 rg 36 625 Td (TECHNICAL SKILLS) Tj ET
+BT /F2 9 Tf 0.1 0.2 0.4 rg 36 607 Td (Languages: ) Tj /F1 9 Tf 0.25 0.25 0.3 rg (HTML5, CSS3, JavaScript) Tj ET
+BT /F2 9 Tf 0.1 0.2 0.4 rg 36 593 Td (Frontend: ) Tj /F1 9 Tf 0.25 0.25 0.3 rg (React, Responsive Design, Accessibility (WCAG)) Tj ET
+BT /F2 9 Tf 0.1 0.2 0.4 rg 36 579 Td (UI/UX Design: ) Tj /F1 9 Tf 0.25 0.25 0.3 rg (Figma, Adobe XD, Photoshop, Illustrator, Wireframing, Interaction Design) Tj ET
+BT /F2 9 Tf 0.1 0.2 0.4 rg 36 565 Td (Video & Storytelling: ) Tj /F1 9 Tf 0.25 0.25 0.3 rg (Adobe Premiere Pro, After Effects, DaVinci Resolve, CapCut) Tj ET
+BT /F2 9 Tf 0.1 0.2 0.4 rg 36 551 Td (Tools & Platforms: ) Tj /F1 9 Tf 0.25 0.25 0.3 rg (Git, GitHub, Postman, VS Code, Adobe Lightroom) Tj ET
+0.08 0.35 0.75 rg 36 525 523 1.5 re f
+BT /F2 12 Tf 0.08 0.25 0.55 rg 36 527 Td (FEATURED PROJECTS) Tj ET
+BT /F2 9.5 Tf 0.05 0.15 0.35 rg 36 509 Td (Portfolio Website with Admin CMS) Tj /F3 8.5 Tf 0.2 0.45 0.75 rg (  |  React, Figma, MySQL) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 496 Td (- Led frontend development of a responsive, accessible admin interface in React for managing portfolio content.) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 484 Td (- Translated wireframes into clean, user-friendly UI in React, prioritizing usability for content management.) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 472 Td (- Built reusable, component-based UI architecture to maintain visual consistency and extensibility.) Tj ET
+BT /F2 9.5 Tf 0.05 0.15 0.35 rg 36 456 Td (Blood Donor Finder - iOS App) Tj /F3 8.5 Tf 0.2 0.45 0.75 rg (  |  SwiftUI, Figma, CoreML (Team Project)) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 443 Td (- Designed UI/UX for iOS app connecting blood donors, requesters, hospitals, and blood banks with live map flows.) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 431 Td (- Defined UX process end-to-end: donor onboarding, alert systems, and SOS emergency broadcast workflows.) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 419 Td (- Translated core user flows into SwiftUI screens balancing urgent usability with accessible interaction.) Tj ET
+BT /F2 9.5 Tf 0.05 0.15 0.35 rg 36 403 Td (LMS & QR-Based Attendance Management System) Tj /F3 8.5 Tf 0.2 0.45 0.75 rg (  |  React, Figma, JavaScript) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 390 Td (- Designed intuitive frontend interfaces for real-time test monitoring and QR attendance tracking.) Tj ET
+BT /F1 8.5 Tf 0.25 0.25 0.3 rg 46 378 Td (- Streamlined communication between students and administrators during live exams, reducing friction.) Tj ET
+0.08 0.35 0.75 rg 36 354 523 1.5 re f
+BT /F2 12 Tf 0.08 0.25 0.55 rg 36 356 Td (EDUCATION) Tj ET
+BT /F2 9 Tf 0.05 0.15 0.35 rg 36 338 Td (B.Tech in Computer Engineering (Pursuing)) Tj /F1 9 Tf 0.3 0.3 0.3 rg ( - Rajarambapu Institute of Technology, Sangli) Tj ET
+BT /F2 8.5 Tf 0.15 0.45 0.8 rg 490 338 Td (2023 - 2027) Tj ET
+BT /F3 8.5 Tf 0.35 0.35 0.4 rg 46 326 Td (Grade / Score: CGPA: 7.30) Tj ET
+BT /F2 9 Tf 0.05 0.15 0.35 rg 36 313 Td (Bachelor of Science (PCM)) Tj /F1 9 Tf 0.3 0.3 0.3 rg ( - Yashwantrao Chavan Maharashtra Open University (YCMOU)) Tj ET
+BT /F2 8.5 Tf 0.15 0.45 0.8 rg 490 313 Td (2022 - 2024) Tj ET
+BT /F3 8.5 Tf 0.35 0.35 0.4 rg 46 301 Td (Grade / Score: Percentage: 75%) Tj ET
+BT /F2 9 Tf 0.05 0.15 0.35 rg 36 288 Td (Higher Secondary Certificate (HSC) - Science) Tj /F1 9 Tf 0.3 0.3 0.3 rg ( - Sainik School Satara) Tj ET
+BT /F2 8.5 Tf 0.15 0.45 0.8 rg 490 288 Td (2022) Tj ET
+BT /F3 8.5 Tf 0.35 0.35 0.4 rg 46 276 Td (Grade / Score: Percentage: 70%) Tj ET
+0.08 0.35 0.75 rg 36 255 523 1.5 re f
+BT /F2 12 Tf 0.08 0.25 0.55 rg 36 257 Td (LEADERSHIP & CERTIFICATIONS) Tj ET
+BT /F2 8.5 Tf 0.05 0.15 0.35 rg 36 239 Td (Leadership: Social Media Head: ) Tj /F1 8.5 Tf 0.25 0.25 0.3 rg (Oyster Kode Club, RIT (2025-2026) - Visual branding, engagement, reels & design) Tj ET
+BT /F2 8.5 Tf 0.05 0.15 0.35 rg 36 227 Td (Leadership: Football Team Captain: ) Tj /F1 8.5 Tf 0.25 0.25 0.3 rg (RIT (2025-2026) - Captained college team to 1st Place at Zonals Tournament) Tj ET
+BT /F2 8.5 Tf 0.05 0.15 0.35 rg 36 215 Td (Certifications: ) Tj /F1 8.5 Tf 0.25 0.25 0.3 rg (Google Cloud Associate Cloud Engineer | Zscaler Zero Trust Certified Associate (ZTCA)) Tj ET
+BT /F2 8.5 Tf 0.05 0.15 0.35 rg 36 203 Td (Certifications: ) Tj /F1 8.5 Tf 0.25 0.25 0.3 rg (Fundamentals of Cybersecurity | Data Science with AI Training) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000273 00000 n 
+0000000343 00000 n 
+0000000418 00000 n 
+0000000496 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+6110
+%%EOF

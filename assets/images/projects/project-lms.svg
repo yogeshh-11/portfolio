@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lmsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091326"/>
+      <stop offset="50%" stop-color="#0d1b38"/>
+      <stop offset="100%" stop-color="#080e1c"/>
+    </linearGradient>
+    <linearGradient id="qrGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" fill="url(#lmsBg)"/>
+  <circle cx="200" cy="180" r="140" fill="#06b6d4" opacity="0.1" filter="url(#glowGreen)"/>
+  <circle cx="650" cy="320" r="150" fill="#10b981" opacity="0.1" filter="url(#glowGreen)"/>
+
+  <!-- Main Container -->
+  <g transform="translate(40, 30)">
+    <rect width="720" height="420" rx="14" fill="#0c1527" stroke="#1d2d50" stroke-width="1.5"/>
+
+    <!-- Top Window bar -->
+    <path d="M 0 14 Q 0 0 14 0 L 706 0 Q 720 0 720 14 L 720 44 L 0 44 Z" fill="#131e36"/>
+    <circle cx="24" cy="22" r="5" fill="#ef4444"/>
+    <circle cx="42" cy="22" r="5" fill="#f59e0b"/>
+    <circle cx="60" cy="22" r="5" fill="#10b981"/>
+    <text x="360" y="27" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">LMS &amp; Real-Time QR Exam &amp; Attendance Console</text>
+
+    <!-- Left Column: QR Scan Terminal -->
+    <g transform="translate(24, 64)">
+      <rect width="260" height="328" rx="12" fill="#0f192e" stroke="#1e2f57" stroke-width="1"/>
+      <text x="20" y="32" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14">Live QR Scanner</text>
+      <text x="20" y="50" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Automated student verification</text>
+
+      <!-- QR Frame & Visual Matrix -->
+      <g transform="translate(45, 68)">
+        <rect width="170" height="170" rx="12" fill="#070d19" stroke="#0ea5e9" stroke-width="1.5"/>
+        <!-- Corner Reticles -->
+        <path d="M 12 28 L 12 12 L 28 12" fill="none" stroke="#38bdf8" stroke-width="3"/>
+        <path d="M 158 28 L 158 12 L 142 12" fill="none" stroke="#38bdf8" stroke-width="3"/>
+        <path d="M 12 142 L 12 158 L 28 158" fill="none" stroke="#38bdf8" stroke-width="3"/>
+        <path d="M 158 142 L 158 158 L 142 158" fill="none" stroke="#38bdf8" stroke-width="3"/>
+        
+        <!-- QR Code modules mockup -->
+        <!-- Top Left Finder -->
+        <rect x="28" y="28" width="34" height="34" rx="4" fill="#38bdf8"/>
+        <rect x="34" y="34" width="22" height="22" rx="2" fill="#070d19"/>
+        <rect x="40" y="40" width="10" height="10" rx="1" fill="#38bdf8"/>
+
+        <!-- Top Right Finder -->
+        <rect x="108" y="28" width="34" height="34" rx="4" fill="#38bdf8"/>
+        <rect x="114" y="34" width="22" height="22" rx="2" fill="#070d19"/>
+        <rect x="120" y="40" width="10" height="10" rx="1" fill="#38bdf8"/>
+
+        <!-- Bottom Left Finder -->
+        <rect x="28" y="108" width="34" height="34" rx="4" fill="#38bdf8"/>
+        <rect x="34" y="114" width="22" height="22" rx="2" fill="#070d19"/>
+        <rect x="40" y="120" width="10" height="10" rx="1" fill="#38bdf8"/>
+
+        <!-- Inner bits -->
+        <rect x="74" y="32" width="12" height="12" fill="#38bdf8"/>
+        <rect x="74" y="52" width="12" height="26" fill="#38bdf8"/>
+        <rect x="94" y="74" width="24" height="12" fill="#38bdf8"/>
+        <rect x="74" y="100" width="18" height="18" fill="#38bdf8"/>
+        <rect x="112" y="112" width="24" height="12" fill="#38bdf8"/>
+        <rect x="98" y="134" width="14" height="14" fill="#38bdf8"/>
+
+        <!-- Laser Scan Line -->
+        <line x1="20" y1="88" x2="150" y2="88" stroke="#10b981" stroke-width="2.5" opacity="0.9"/>
+      </g>
+
+      <!-- Scan result pill -->
+      <rect x="24" y="260" width="212" height="46" rx="8" fill="#0b2923" stroke="#10b981" stroke-width="1"/>
+      <text x="36" y="280" fill="#34d399" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11">✓ VERIFICATION INSTANT</text>
+      <text x="36" y="295" fill="#e2e8f0" font-family="'Segoe UI', Roboto, sans-serif" font-size="10">Student ID #2024CS089 verified &amp; logged</text>
+    </g>
+
+    <!-- Right Column: Exam & Attendance Monitor Board -->
+    <g transform="translate(306, 64)">
+      <!-- Top Metrics Row -->
+      <g>
+        <rect width="185" height="74" rx="10" fill="#13203c" stroke="#253a66" stroke-width="1"/>
+        <text x="16" y="24" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">PRESENT TODAY</text>
+        <text x="16" y="52" fill="#10b981" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="22">84 / 85</text>
+        <text x="120" y="52" fill="#6ee7b7" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">98.8%</text>
+
+        <rect x="200" width="185" height="74" rx="10" fill="#13203c" stroke="#253a66" stroke-width="1"/>
+        <text x="216" y="24" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">EXAM SESSION</text>
+        <text x="216" y="52" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20">01:42:18</text>
+      </g>
+
+      <!-- Live Monitoring Grid -->
+      <g transform="translate(0, 92)">
+        <rect width="385" height="236" rx="10" fill="#0e172a" stroke="#1e2c52" stroke-width="1"/>
+        <text x="16" y="24" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="13">Real-Time Examination Roster</text>
+        <circle cx="355" cy="20" r="5" fill="#10b981"/>
+        <text x="340" y="24" fill="#10b981" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="end">LIVE</text>
+
+        <!-- Student Cards List -->
+        <!-- Item 1 -->
+        <g transform="translate(16, 38)">
+          <rect width="353" height="42" rx="6" fill="#14213d"/>
+          <circle cx="24" cy="21" r="10" fill="#2563eb"/>
+          <text x="24" y="25" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="middle">A1</text>
+          <text x="44" y="20" fill="#f8fafc" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Aarav Patil</text>
+          <text x="44" y="32" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="9">Terminal 01 • QR Verified</text>
+          <rect x="270" y="11" width="70" height="20" rx="4" fill="#10b981" fill-opacity="0.2"/>
+          <text x="305" y="25" fill="#34d399" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Submitting</text>
+        </g>
+
+        <!-- Item 2 -->
+        <g transform="translate(16, 88)">
+          <rect width="353" height="42" rx="6" fill="#14213d"/>
+          <circle cx="24" cy="21" r="10" fill="#7c3aed"/>
+          <text x="24" y="25" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="middle">S2</text>
+          <text x="44" y="20" fill="#f8fafc" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Sneha Shinde</text>
+          <text x="44" y="32" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="9">Terminal 14 • In Progress</text>
+          <rect x="270" y="11" width="70" height="20" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+          <text x="305" y="25" fill="#60a5fa" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Active Test</text>
+        </g>
+
+        <!-- Item 3 -->
+        <g transform="translate(16, 138)">
+          <rect width="353" height="42" rx="6" fill="#14213d"/>
+          <circle cx="24" cy="21" r="10" fill="#0d9488"/>
+          <text x="24" y="25" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" text-anchor="middle">R3</text>
+          <text x="44" y="20" fill="#f8fafc" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600">Rohan Kulkarni</text>
+          <text x="44" y="32" fill="#64748b" font-family="'Segoe UI', Roboto, sans-serif" font-size="9">Terminal 22 • QR Verified</text>
+          <rect x="270" y="11" width="70" height="20" rx="4" fill="#3b82f6" fill-opacity="0.2"/>
+          <text x="305" y="25" fill="#60a5fa" font-family="'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" text-anchor="middle">Active Test</text>
+        </g>
+
+        <!-- Tech Footer -->
+        <g transform="translate(16, 190)">
+          <rect width="353" height="34" rx="6" fill="#111c34"/>
+          <text x="14" y="22" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="10">STACK:</text>
+          <rect x="62" y="7" width="56" height="20" rx="4" fill="#0284c7" fill-opacity="0.25"/>
+          <text x="90" y="21" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">React</text>
+          
+          <rect x="124" y="7" width="56" height="20" rx="4" fill="#6366f1" fill-opacity="0.25"/>
+          <text x="152" y="21" fill="#a5b4fc" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Figma</text>
+
+          <rect x="186" y="7" width="80" height="20" rx="4" fill="#f59e0b" fill-opacity="0.25"/>
+          <text x="226" y="21" fill="#fcd34d" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">JavaScript</text>
+
+          <rect x="272" y="7" width="70" height="20" rx="4" fill="#10b981" fill-opacity="0.25"/>
+          <text x="307" y="21" fill="#6ee7b7" font-family="'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">QR Engine</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
